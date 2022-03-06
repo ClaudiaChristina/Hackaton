@@ -1,0 +1,57 @@
+h1{
+    font-size:xx-large;
+    font-style: italic;
+    background-color:mediumorchid;
+    color:white;
+    text-decoration: underline;
+}
+img{
+    padding-left:6em;
+}
+
+.black-border{
+    border:solid;
+    color: black;
+    background-color:magenta;
+    border-radius: 15px;
+    padding-left: 18em;
+    padding-bottom:1em;
+    padding-top:1em;
+    font-size: xx-large;
+}
+
+nav{
+    font-size:xx-large;
+    background-color:mediumspringgreen;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    padding-right: 50px;
+    padding-left:50px;
+}
+
+.one{
+    background-color:rgb(66, 226, 66);
+}
+
+.two{
+    background-color: blue;
+}
+
+.three{
+    background-color:yellow;
+}
+
+.four{
+    background-color: pink;
+}
+
+.five{
+    background-color: grey;
+}
+
+.six{
+    background-color: purple;
+}

@@ -1,0 +1,89 @@
+@media (max-width:600px){
+nav{
+    font-size:xx-large;   
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: repeat(4,1fr);
+    grid-gap:2px;
+}
+
+body{
+    background-color:rgb(148, 163, 62);
+    color:white;
+}
+
+.one{
+    background-color:rgb(140, 233, 240);
+    color:rgb(35, 21, 160);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.two{
+    background-color:lavenderblush;
+    color: rgb(240, 136, 153);
+}
+.three{
+    background-color:rgb(204, 204, 247);
+    color: blue;
+}
+.four{
+    background-color:rgb(189, 250, 128);
+    color: green;
+}
+.five{
+    background-color:rgb(187, 100, 250);
+    color:rgb(61, 0, 104)
+}
+.six{
+    background-color: rgb(255, 192, 241);
+    color: rgb(196, 12, 150);
+}
+footer{
+    background-color:lightcoral;
+}
+}
+@media( min-width:601px){
+    nav{
+        font-size:xx-large;
+        
+    }
+    .container{
+        display:grid;
+        grid-template-columns: 300px 300px 300px 300px 300px;
+        grid-template-rows: repeat(4,1fr);
+        grid-gap:4px;
+    }
+    body{
+        background-color:rgb(133, 109, 221);
+        color:rgb(231, 160, 238);
+    }
+    .one{
+        background-color:rgb(140, 233, 240);
+        color:black;
+        border:green;
+    }
+    .two{
+        background-color:lavenderblush;
+        color: black;
+    }
+    .three{
+        background-color:rgb(204, 204, 247);
+        color: black;
+    }
+    .four{
+        background-color:rgb(189, 250, 128);
+        color: black;
+    }
+    .five{
+        background-color:rgb(187, 100, 250);
+        color:black;
+    }
+    .six{
+        background-color: rgb(255, 192, 241);
+        color: black;
+    }
+
+}
